@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        SELETORES ESPECIAIS
+        #=id
+        .=class
+        :=pseudo class
+        ::=pseudo elemento
+        >=children
+        */
+        body {
+            font: normal 1.1em cursive;
+            background-color: antiquewhite;
+        }
+        a {
+            color: rgb(0, 255, 13);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited {
+           color: brown;
+           font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+        a:active{
+            color: chartreuse;
+        }
+        a::after{
+            content: '<- [link]';
+            color: rgba(0, 0, 0, 0.37);
+            font-weight: lighter;
+            text-decoration: none;
+        }
+        a::before{
+            content: '->';
+            color: rgba(0, 0, 0, 0.37);
+            font-weight: lighter;
+            text-decoration: none;
+        }
+        .especial{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank">GitHub</a></li>
+        <li><a href="https://www.youtube.com/@LubaTV" target="_blank" class="especial">Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/" target="_blank">Site Oficial</a></li>
+    </ul>
+</body>
+</html>

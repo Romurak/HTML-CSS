@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{
+    background-color: #102E4A;
+    font: normal 1.1em cursive;
+}
+h1{
+    color: #7BAE7F;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1#pricinpal{
+    background-color: cornflowerblue;
+    text-align: center;
+    color: #4E4187;
+    font-size: 2em;
+}
+h2{
+    color: #DA4167;
+    font-family:monospace
+}
+.basico{
+    color: #EA3788;
+}
+.itermediario{
+    color: #B0228C;
+}
+.avançado{
+    color: #9e2398;
+}
+.destaque{
+    font-weight: bolder;
+    background-color: rgba(128, 255, 0, 0.76);
+}
+/*
+HTML=id=CSS=#  1 elemeto
+clas=.  +de1 elemento
+*/

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOVER&CHILD</title>
+    <style>
+        body{
+            font: normal 1.1em cursive;
+            background-color: aquamarine;
+            text-align: center;
+        }
+        div:hover{
+            color: red;
+        }
+        div:hover > p{
+            display: block;
+            background-color: blue;
+            color: chartreuse;
+            width: 333px;
+            text-align: center;
+        }
+        div > p{
+            display: none;
+            font-family:fantasy;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover e Child</h1>
+    <div>
+    Passe o mouse aqui
+    <p>DEEZ NUTS</p>
+    </div>
+</body>
+</html>

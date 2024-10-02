@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagens Dinânmicas</h1>
+    <p>Tente abrir este arquivo com varias resoluções</p>
+    <picture>
+        <source media="(max-width: 700px )" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/média.png" type="image/png">
+        <img src="imagens/grande.png" alt="grande">
+    </picture>
+    <h1>Videos Locais</h1>
+    <video src="Midia/video-coral.mp4" width="700" controls></video>
+    <video>
+        <source src="" type="mp4">
+        <source src="" type="ogv">
+        <source src="" type="m4v">
+    </video>
+    <h1>Vídeos Externos </h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/o6DnEgAA9TQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>Reproduzir Áudios</h1>
+    <p>Aprendendo a reproduzir áudios em a HTML5</p>
+    <p>Caso seu navegador não suporte audio 
+        <a href="Midia/HighNoon-TrackTribe.zip" download="HighNoon-TrackTribe.zip" type="application/zip">baixe aqui o arquivo em mp3</a>
+    </p>
+    <audio src="Midia/HighNoon-TrackTribe.mp3" controls preload="metadata"></audio>
+    <audio>
+        <source src="Midia/HighNoon-TrackTribe.mp3" type="audio/mpeg">
+        <source src="Midia/HighNoon-TrackTribe.ogg" type="audio/ogg">
+        <source src="Midia/HighNoon-TrackTribe.wav" type="audio/wav">
+        <p>Caso seu navegador não suporte audio baixe aqui o aequivo em mp3 <a href="Midia/High Noon - TrackTribe.mp3"></a>
+    </audio>
+    
+</body>
+</html> 
+    <!--MP3 WAV OGG-->

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: cursive;
+            background-color: bisque;
+            margin: 0px;
+        }
+        header{
+            font-family: 'Courier New', Courier, monospace;
+            background-color:rgb(255, 255, 255) ;
+            padding: 0px;
+        }
+        nav{
+            background-color: gray;
+            padding: 3px;
+            
+        }
+        main{
+            background-color: aliceblue;
+            font-size: large;
+            border-radius: 33px;
+            box-shadow: 3px 3px 3px black;
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+        }
+        article > aside{
+            color: rgb(36, 12, 12);
+            background-color: chartreuse;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola{
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            border-radius: 100% ;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <span></span>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="@">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>News</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis voluptatem unde vel minus quos, fuga doloremque dolorem cum delectus a quam minima iusto facere nemo qui harum mollitia labore voluptatibus.</p>
+                <aside>POR.....</aside>
+            </article>
+        </section>
+        <section id="assuntos"></section>
+    </main>
+    <footer>
+        Desenvolvido
+    </footer>
+    <div id="bola">BOLA</div>
+</body>
+</html>
