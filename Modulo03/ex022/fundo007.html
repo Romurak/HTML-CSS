@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alinhamento Vertical</title>
     <style>
         body{
             font-family: cursive;
         }
+        #contenier{
+            position: relative;
+            height: 97vh;
+            padding: 10px;
+            background: green url(imagens/target001.png) no-repeat center center ;
+            background-size: contain;
+        }
+        #conteudo{
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background: blue url(imagens/target001.png) no-repeat center center ;
+            background-size: contain;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%,-50%);
+        }
     </style>
 </head>
 <body>
+    <section id="contenier">
+        <article id="conteudo">
+
+        </article>
+    </section>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio ad debitis nemo magni necessitatibus voluptatibus totam vero, aut, illo odio quisquam error, quia nobis quaerat quos corrupti vel dolore iure?</p>
 </body>
 </html>
